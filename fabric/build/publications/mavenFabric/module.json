@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.bananus",
+    "module": "mmarcane",
+    "version": "1.3+1.20.1-fabric",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.2+1.20.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.2.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mmarcane-1.3+1.20.1-fabric.jar",
+          "url": "mmarcane-1.3+1.20.1-fabric.jar",
+          "size": 74645,
+          "sha512": "281df3234a18df5869a5789078302d865cf4f7eb7633c6614d1f19ae2c7d0660b65fd4616503f84d32e479de055ff6e6b5cb9629b00c6a5d01d5f25df802b563",
+          "sha256": "e01715f1fd28d7f7c902e2920fb3f752cdc1b8b38d8efb43c49a33c37476a255",
+          "sha1": "b294d4e785c879e27044457fb8dee7981205e4b2",
+          "md5": "93cc7c621f67ef562c5e3740fbb097a0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.classgraph",
+          "module": "classgraph",
+          "version": {
+            "requires": "4.8.175"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.2+1.20.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.2.14"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.2"
+          }
+        },
+        {
+          "group": "software.bernie.geckolib",
+          "module": "geckolib-fabric-1.20.1",
+          "version": {
+            "requires": "4.4.6"
+          }
+        },
+        {
+          "group": "com.eliotlash.mclib",
+          "module": "mclib",
+          "version": {
+            "requires": "20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mmarcane-1.3+1.20.1-fabric.jar",
+          "url": "mmarcane-1.3+1.20.1-fabric.jar",
+          "size": 74645,
+          "sha512": "281df3234a18df5869a5789078302d865cf4f7eb7633c6614d1f19ae2c7d0660b65fd4616503f84d32e479de055ff6e6b5cb9629b00c6a5d01d5f25df802b563",
+          "sha256": "e01715f1fd28d7f7c902e2920fb3f752cdc1b8b38d8efb43c49a33c37476a255",
+          "sha1": "b294d4e785c879e27044457fb8dee7981205e4b2",
+          "md5": "93cc7c621f67ef562c5e3740fbb097a0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mmarcane-1.3+1.20.1-fabric-sources.jar",
+          "url": "mmarcane-1.3+1.20.1-fabric-sources.jar",
+          "size": 60749,
+          "sha512": "7c853320bf6eab20c764db580b7be74ca5c9cfabc17a6899f8152f034ca9b20fa56f2ef20334beb29316cf4b5d113e8349ad17d12f9a88c4cfcae244bace0a95",
+          "sha256": "8cffea2991b30d6607eb90f6f15d30bc3468273c60f44d8577192ac8b3f75888",
+          "sha1": "fef9469ed707d707156ff616733c529e60c53430",
+          "md5": "7bc57df2ab3051d8a9b44d2a0fa4a6d1"
+        }
+      ]
+    }
+  ]
+}

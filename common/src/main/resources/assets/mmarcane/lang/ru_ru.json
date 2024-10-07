@@ -1,0 +1,31 @@
+{
+  "spell.name.regenio": "Regenio",
+  "spell.name.teleportio": "Teleportio",
+  "spell.name.miner_strength": "Сила шахтера",
+  "spell.name.god_rage": "Ярость Бога",
+
+  "spell.no_spells": "У Вас нет открытых заклинаний",
+  "spell.no_spells.chat": "Это заклинание закрыто.",
+  "spell.opened_before": "Заклинание уже было открыто",
+  "spell.open": "Заклинание \"[spell]\" открыто",
+  "wand.level.desc": "Уровень палочки -> ",
+  "wand.currSpell.desc": "Текущее заклинание -> ",
+  "wand.currSpell.noSpell": "Не выбрано",
+  "wand.spell.lowLevel": "Вы недостаточно сильны",
+  "wand.level.upgrade": "Ваша палочка была улучшена до уровня [level]",
+
+  "spellbook.spell.desc": "Заклинание -> ",
+  "spellbook.wand.needLevel": "Требуемый уровень палочки -> ",
+  "item.mmarcane.magic_wand": "Волшебная палочка",
+  "entity.minecraft.villager.mmarcane.wizard": "Маг",
+  "tab.mmarcane.main": "MundoMagis: Arcane",
+  "entity.mmarcane.wizard": "Маг",
+  "tab.mmarcane.spells": "MundoMagis: Arcane -> Заклинания",
+  "spellbook.addon.desc": "Аддон -> ",
+
+  "item.mmarcane.regenio_spellbook": "Книга заклинания \"Regenio\"",
+  "item.mmarcane.god_rage_spellbook": "Книга заклинания \"Ярость Бога\"",
+  "addon.mmarc": "MMArc",
+  "item.mmarcane.miner_strength_spellbook": "Книга заклинания \"Сила шахтера\"",
+  "item.mmarcane.teleportio_spellbook": "Книга заклинания \"Teleportio\""
+}

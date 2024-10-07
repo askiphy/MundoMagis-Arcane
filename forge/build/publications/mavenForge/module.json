@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.bananus",
+    "module": "mmarcane",
+    "version": "1.3+1.20.1-forge",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "9.2.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mmarcane-1.3+1.20.1-forge.jar",
+          "url": "mmarcane-1.3+1.20.1-forge.jar",
+          "size": 77419,
+          "sha512": "39b3284da14a58c155fc4f048ab231f5cea48339765e91b3e77e105f00a38c5c3682755c022357df854063b5824ea8c373ea2244fc283cee9ca2a73debdab34e",
+          "sha256": "4d484eb40baa433248a68edb5cecac83cc2429e4252beace9b8830b7de085a4a",
+          "sha1": "8d91b04cc08fc00bc02215a61fb0c2f5275e8968",
+          "md5": "c889a1c35ff6af0c8e1528324ed737cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.classgraph",
+          "module": "classgraph",
+          "version": {
+            "requires": "4.8.175"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "9.2.14"
+          }
+        },
+        {
+          "group": "software.bernie.geckolib",
+          "module": "geckolib-forge-1.20.1",
+          "version": {
+            "requires": "4.4.6"
+          }
+        },
+        {
+          "group": "com.eliotlash.mclib",
+          "module": "mclib",
+          "version": {
+            "requires": "20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mmarcane-1.3+1.20.1-forge.jar",
+          "url": "mmarcane-1.3+1.20.1-forge.jar",
+          "size": 77419,
+          "sha512": "39b3284da14a58c155fc4f048ab231f5cea48339765e91b3e77e105f00a38c5c3682755c022357df854063b5824ea8c373ea2244fc283cee9ca2a73debdab34e",
+          "sha256": "4d484eb40baa433248a68edb5cecac83cc2429e4252beace9b8830b7de085a4a",
+          "sha1": "8d91b04cc08fc00bc02215a61fb0c2f5275e8968",
+          "md5": "c889a1c35ff6af0c8e1528324ed737cf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mmarcane-1.3+1.20.1-forge-sources.jar",
+          "url": "mmarcane-1.3+1.20.1-forge-sources.jar",
+          "size": 63299,
+          "sha512": "b11cc78799fc88aef362bf6956fde94baeedf87f8f5e083e733b24681b4270fa37d6798a74c00814ee42db0c11c303a213ce905625f038283dcf57e29653a88f",
+          "sha256": "45a8af5749e85f209a5452d69b76eb993fec7ba90bcf9f59df2b286dfaf0d7d9",
+          "sha1": "dd9bf702045610bc9a1184be6f578b4293929563",
+          "md5": "ac660f0cf0b2317ffe72565a7ce97c7d"
+        }
+      ]
+    }
+  ]
+}

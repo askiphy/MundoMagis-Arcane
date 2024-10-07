@@ -1,0 +1,33 @@
+{
+  "item.mmarcane.magic_wand": "Magic wand",
+  "entity.minecraft.villager.mmarcane.wizard": "Wizard",
+  "tab.mmarcane.main": "MundoMagis: Arcane",
+  "tab.mmarcane.spells": "MundoMagis: Arcane -> Spells",
+  "entity.mmarcane.wizard": "Wizard",
+
+  "spell.name.regenio": "Regenio",
+  "spell.name.teleportio": "Teleportio",
+  "spell.name.miner_strength": "Miner Strength",
+  "spell.name.god_rage": "Rage of The God",
+
+  "spell.no_spells": "There aren`t any spells",
+  "spell.no_spells.chat": "This spell isn`t opened.",
+  "spell.opened_before": "Spell was already opened",
+  "spell.open": "Spell \"[spell]\" was opened",
+  "wand.level.desc": "Level of wand -> ",
+  "wand.currSpell.desc": "Current spell -> ",
+  "wand.currSpell.noSpell": "Not selected",
+  "wand.spell.lowLevel": "You don`t strength enough",
+  "wand.level.upgrade": "Your wand was upgraded to level [level]",
+
+  "spellbook.spell.desc": "Spell -> ",
+  "spellbook.wand.needLevel": "Need wand level -> ",
+  "spellbook.addon.desc": "Addon -> ",
+
+  "item.mmarcane.regenio_spellbook": "Reginio Spellbook",
+  "item.mmarcane.god_rage_spellbook": "Rage Of The God Spellbook",
+  "item.mmarcane.miner_strength_spellbook": "Miner Strength Spellbook",
+  "item.mmarcane.teleportio_spellbook": "Teleportio Spellbook",
+
+  "addon.mmarc": "MMArc"
+}

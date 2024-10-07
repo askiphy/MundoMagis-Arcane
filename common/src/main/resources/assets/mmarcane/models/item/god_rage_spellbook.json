@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mmarcane:item/god_rage_spellbook"
+  }
+}
